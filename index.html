@@ -8,16 +8,46 @@
   <title>Responsive</title>
   <link rel="stylesheet" href="./css/reset.css">
   <link rel="stylesheet" href="./css/base.css">
+  <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
-  <h2 class="question--title">Q7 サイズ変更</h2>
-  <h2 class="question--title">Q2 色変更</h2>
-  <h2 class="question--title">Q3 margin値の変更</h2>
-  <h2 class="question--title">Q4 floatの解除</h2>
-  <h2 class="question--title">Q5 flexboxの入れ替え(逆順)</h2>
-  <h2 class="question--title">Q6 flexboxの入れ替え(指定)</h2>
-  <h2 class="question--title">Q7 要素の表示・非表示</h2>
+  <div class="wrapper">
+    <h2 class="question--title">Q1 サイズ変更</h2>
+    <div class="center red--box1"></div>
+    <h2 class="question--title">Q2 色変更</h2>
+    <div class="center red box"></div>
+    <h2 class="question--title">Q3 margin値の変更</h2>
+    <div class="d--flex">
+      <div class="blue box"></div>
+      <div class="green box"></div>
+    </div>
+    <h2 class="question--title">Q4 floatの解除</h2>
+    <div class="clearfix">
+      <div class="container">
+        <div class="red--box4"></div>
+        <div class="blue--box4"></div>
+      </div>
+    </div>
+    <h2 class="question--title">Q5 flexboxの入れ替え(逆順)</h2>
+    <div class="d--flex5">
+      <div class="red--box5">A</div>
+      <div class="blue--box5">B</div>
+      <div class="orange--box5">C</div>
+    </div>
+    <h2 class="question--title">Q6 flexboxの入れ替え(指定)</h2>
+    <div class="d--flex6">
+      <div class="green--box6">A</div>
+      <div class="light--green--box6">B</div>
+      <div class="pink--box6">C</div>
+    </div>
+    <h2 class="question--title">Q7 要素の表示・非表示</h2>
+    <div class="container7">
+      <div class="red--box7"></div>
+      <div class="blue--box7"></div>
+      <div class="green--box7"></div>
+    </div>
+  </div>
 </body>
 
 </html>
